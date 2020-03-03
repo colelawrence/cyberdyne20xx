@@ -322,7 +322,17 @@
 				"meta.attribute.rust",
 			],
 			"settings": {
-				"foreground": "#b4baff"
+				"foreground": "#b4baff",
+				"fontStyle": "italic",
+			}
+		},
+		{
+			"name": "Keyword, Rust",
+			"scope": [
+				"storage.modifier.mut.rust",
+			],
+			"settings": {
+				"fontStyle": "bold underline"
 			}
 		},
 		{
