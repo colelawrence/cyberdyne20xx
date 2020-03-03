@@ -31,7 +31,7 @@
 		"editor.wordHighlightBackground": "#42557b",
 		"editor.wordHighlightStrongBackground": "#42557b",
 		"editorBracketMatch.background": "#ff005533",
-		"editorBracketMatch.border": "#ff004c",
+		"editorBracketMatch.border": "#ffff00",
 		"editorCursor.foreground": "#00ffc8",
 		"editorError.foreground": "#ff1865",
 		"editorGroup.border": "#00ff9c",
@@ -212,6 +212,120 @@
 			}
 		},
 		{
+			"name": "Keyword, Rust",
+			"scope": [
+				"keyword.other.rust",
+			],
+			"settings": {
+				"foreground": "#d57bff"
+			}
+		},
+		{
+			"name": "Keyword, Rust",
+			"scope": [
+				"source.rust",
+			],
+			"settings": {
+				"foreground": "#b4baff"
+			}
+		},
+		{
+			"name": "Keyword, Rust",
+			"scope": [
+				"keyword.other.fn.rust",
+			],
+			"settings": {
+				"foreground": "#6766b3"
+			}
+		},
+		{
+			"name": "Keyword, Rust",
+			"scope": [
+				"entity.name.lifetime.rust",
+				"storage.modifier.lifetime.rust",
+			],
+			"settings": {
+				"foreground": "#ffff00"
+			}
+		},
+		{
+			"name": "Keyword, Rust",
+			"scope": [
+				"support.type.core.rust",
+				"entity.name.type.rust",
+			],
+			"settings": {
+				"foreground": "#ff9100"
+			}
+		},
+		{
+			"name": "Keyword, Rust",
+			"scope": [
+				"keyword.other.unsafe.rust",
+			],
+			"settings": {
+				"foreground": "#f44747"
+			}
+		},
+		{
+			"name": "Keyword, Rust",
+			"scope": [
+				"support.type.marker.rust",
+			],
+			"settings": {
+				"foreground": "#6766b3"
+			}
+		},
+		{
+			"name": "Keyword, Rust",
+			"scope": [
+				"keyword.other.where.rust",
+			],
+			"settings": {
+				"foreground": "#6766b3"
+			}
+		},
+		{
+			"name": "Keyword, Rust",
+			"scope": [
+				"keyword.operator.misc.rust",
+				"keyword.operator.arithmetic.rust",
+			],
+			"settings": {
+				"foreground": "#d57bff"
+			}
+		},
+		{
+			"name": "Keyword, Rust",
+			"scope": [
+				"constant.numeric.integer.hexadecimal.rust",
+				"constant.numeric.integer.decimal.rust",
+				"constant.numeric.float.rust",
+				"constant.language.boolean.rust",
+			],
+			"settings": {
+				"foreground": "#76C1FF"
+			}
+		},
+		{
+			"name": "Keyword, Rust",
+			"scope": [
+				"support.constant.core.rust",
+			],
+			"settings": {
+				"foreground": "#6766b3"
+			}
+		},
+		{
+			"name": "Keyword, Rust",
+			"scope": [
+				"meta.attribute.rust",
+			],
+			"settings": {
+				"foreground": "#b4baff"
+			}
+		},
+		{
 			"name": "Operator, Misc",
 			"scope": [
 				"keyword.control",
@@ -239,7 +353,7 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#ff5680"
+				"foreground": "#00ff9caa"
 			}
 		},
 		{
@@ -285,7 +399,7 @@
 				"variable.parameter"
 			],
 			"settings": {
-				"foreground": "#fffc58"
+				"foreground": "#C3E88D"
 			}
 		},
 		{
@@ -295,7 +409,7 @@
 				"keyword.other"
 			],
 			"settings": {
-				"foreground": "#ff5680"
+				"foreground": "#00ff9caa"
 			}
 		},
 		{
@@ -361,7 +475,7 @@
 				"variable.other.class.js"
 			],
 			"settings": {
-				"foreground": "#ff5680"
+				"foreground": "#00ff9caa"
 			}
 		},
 		{
@@ -371,7 +485,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#ff5680"
+				"foreground": "#d57bff"
 			}
 		},
 		{

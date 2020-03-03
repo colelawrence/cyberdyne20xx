@@ -1,13 +1,13 @@
 {
     "name": "cyberdyne20xx",
-	"displayName": "Cyberdyne 20XX",
-    "description": "A green cyberpunk theme",
+    "displayName": "Cyberdyne 20XX++",
+    "description": "A green cyberpunk theme (rusty fork)",
     "author": "clerian",
     "version": "0.0.1",
-    "publisher": "clerian",
+    "publisher": "gilescope",
     "repository": {
         "type": "git",
-        "url": "https://github.com/clerian-code/cyberdyne20xx.git"
+        "url": "https://github.com/gilescope/cyberdyne20xx.git"
     },
     "engines": {
         "vscode": "^1.0.0"
@@ -18,10 +18,13 @@
     "contributes": {
         "themes": [
             {
-                "label": "Cyberdyne 20XX",
+                "label": "Cyberdyne 20XX++",
                 "uiTheme": "vs-dark",
                 "path": "./themes/cyberdyne20xx-color-theme.json"
             }
         ]
+    },
+    "dependencies": {
+        "vsce": "^1.73.0"
     }
 }
