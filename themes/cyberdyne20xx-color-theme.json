@@ -212,9 +212,19 @@
 			}
 		},
 		{
+			"name": "Markdown Links should be unobtrusive",
+			"scope": [
+				"markup.underline.link.markdown",
+			],
+			"settings": {
+				"foreground": "#d57bff6c"
+			}
+		},
+		{
 			"name": "Keyword, Rust",
 			"scope": [
 				"keyword.other.rust",
+				"keyword.control.import.python",
 			],
 			"settings": {
 				"foreground": "#d57bff"
@@ -223,6 +233,7 @@
 		{
 			"name": "Keyword, Rust",
 			"scope": [
+				"source.python",
 				"source.rust",
 			],
 			"settings": {
@@ -253,6 +264,7 @@
 			"scope": [
 				"support.type.core.rust",
 				"entity.name.type.rust",
+				"entity.name.function.decorator.python",
 			],
 			"settings": {
 				"foreground": "#ff9100"
@@ -300,6 +312,7 @@
 			"scope": [
 				"constant.numeric.integer.hexadecimal.rust",
 				"constant.numeric.integer.decimal.rust",
+				"constant.numeric.dec.python",
 				"constant.numeric.float.rust",
 				"constant.language.boolean.rust",
 			],
@@ -319,6 +332,8 @@
 		{
 			"name": "Keyword, Rust",
 			"scope": [
+				"meta.function-call.arguments.python",
+				"variable.parameter.function-call.python",
 				"meta.attribute.rust",
 			],
 			"settings": {

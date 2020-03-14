@@ -1,9 +1,9 @@
 {
-    "name": "cyberdyne20xx",
-    "displayName": "Cyberdyne 20XX++",
+    "name": "cyberdyne20xx-rust-edition",
+    "displayName": "Cyberdyne 20XX_rust_edition",
     "description": "A green cyberpunk theme (rusty fork)",
     "author": "clerian",
-    "version": "0.0.1",
+    "version": "0.0.3",
     "publisher": "gilescope",
     "repository": {
         "type": "git",
@@ -18,7 +18,7 @@
     "contributes": {
         "themes": [
             {
-                "label": "Cyberdyne 20XX++",
+                "label": "Cyberdyne 20XX_rust_edition",
                 "uiTheme": "vs-dark",
                 "path": "./themes/cyberdyne20xx-color-theme.json"
             }

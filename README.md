@@ -11,4 +11,6 @@ Features:
 * Bright Green
 * So Much Green
 
+Rusty Fork: Might be some purple too (and some MD and Python specific coloring too).
+
 **Enjoy!**
